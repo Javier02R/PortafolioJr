@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: #0077b6;
+  color: white;
+  padding: 40px 20px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0077b6;
+  display: inline-block;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.tech-stack {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.tech-stack img {
+  width: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #023e8a;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+}
