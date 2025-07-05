@@ -3,64 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javier Rodriguez - Desorrallador</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Javier Rodriguez - Desarrollador</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Javier Rodriguez</h1>
-        <p>Desarrollador JR</p>
-    </header>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="window-lights">
+        <span class="light red"></span>
+        <span class="light yellow"></span>
+        <span class="light green"></span>
+      </div>
+      <img src="yo.jpg" alt="Tu foto" class="avatar">
+      <h1>Javier Rodriguez</h1>
+      <p class="subtitle">Junior Fullstack Developer</p>
+      <a href="#contact" class="btn-contact">Contáctame</a>
+      <section class="about">
+        <h2>Sobre mi</h2>
+        <p>Programador con formación en desarrollo de software y bases de datos.
+             Manejo tecnologías como HTML, CSS, JavaScript, Python, Java, C++, SQL y herramientas como 
+             Git, FastAPI, Ionic y Angular. También tengo experiencia básica en soporte técnico, documentación 
+             de procesos y uso de SAP en entornos empresariales.</p>
+      </section>
+      <section id="skills">
+  <h2>My Tech Stack</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+      <p>HTML5</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+      <p>CSS3</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+      <p>React</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+      <p>Node.js</p>
+    </div>
+    <!-- Agrega más tarjetas aquí -->
+  </div> 
+</section>
+    </aside>
 
-    <nav>
-        <ul>
-            <li><a href="#about">Sobre mí</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
-    </nav>
+    <main class="main-content">
 
-    <section id="about">
-        <h2>Sobre mí</h2>
-        <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona crear aplicaciones web interactivas y eficientes.</p>
-    </section>
+      <section id="hero">
+        <div class="hero-content">
+          <div class="window-lights">
+            <span class="light red"></span>
+            <span class="light yellow"></span>
+            <span class="light green"></span>
+          </div>
 
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Proyecto 1: Aplicación de Tareas</h3>
-            <img src="task-app-screenshot.png" alt="Captura de pantalla de la aplicación de tareas">
-            <p>Una aplicación web para gestionar tareas diarias, construida con HTML, CSS y JavaScript.</p>
-            <a href="https://github/proyecto" target="_blank">Ver en GitHub</a>
+          <h1>Javier Rodriguez</h1>
+          <h3>Programador Fullstack</h3>
+          <p id="typing-text">Desarrollador Fullstack Junior</p>
+          <a href="#projects" class="btn-hero">Ver mis proyectos</a>
         </div>
-        <!-- Puedes agregar más proyectos aquí -->
-    </section>
+      </section>
+      <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+          <!-- Múltiples tarjetas de proyectos -->
+          <div class="proj-card">
+            <img src="aventrip.png" alt="Proyecto X">
+          </div>
+        </div>
+      </section>
 
+      <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="proyecto1.png" alt="Proyecto 1" />
+                <div class="project-info">
+                    <h3>BotQuery</h3>
+                    <p>Chatbot interactivo con IA usando JavaScript y Node.js.</p>
+                    <a href="#">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="aventrip.png" alt="Proyecto 2" />
+                <div class="project-info">
+                    <h3>Aventrip</h3>
+                    <p>App de tareas con almacenamiento local en HTML/CSS/JS.</p>
+                    <a href="#">Ver en GitHub</a>
+                </div>
+            </div>
+            <!-- más proyectos -->
+            </div>
+        </section>
 
-    <section id="stack">
-        <h2>Stack Tecnologico</h2>
-        <ul class="tech-stack">
-            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" /></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" /></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" /></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" /></li>
-            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" /></li>
-        </ul>
+      <section class="experience">
+        <h2>Experience</h2>
+        <!-- Línea de tiempo con tarjetas -->
+      </section>
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-            <input type="email" id="email" name="email" placeholder="Tu correo" required> 
-            <textarea id="message" name="message" placeholder="Tu mensaje" required></textarea>
-            <button type="submit">Enviar</button> 
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2023 Javier Rodriguez. Todos los derechos reservados.</p>
-        <p>Sígueme en <a href="javierr02" target="_blank">GitHub</a> y <a href="https://www.linkedin.com/in/javier-rodriguez-123456789/" target="_blank">LinkedIn</a>.</p>
-    </footer>  
+      <section class="testimonial">
+        <h2>Testimonial</h2>
+        <!-- Tarjeta con imagen y texto -->
+      </section>
 
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <!-- Formulario y redes sociales -->
+      </section>
+    </main>
+  </div>
 </body>
 </html>
