@@ -1,123 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javier Rodriguez - Desarrollador</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javier Rodríguez - Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <div class="window-lights">
-        <span class="light red"></span>
-        <span class="light yellow"></span>
-        <span class="light green"></span>
+
+<div class="container">
+  
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <img src="yo.jpg" alt="Foto de Javier Rodríguez" class="avatar">
+    <h1>Javier Rodríguez</h1>
+    <p class="subtitle">Desarrollador Fullstack Junior</p>
+
+    <section class="about">
+      <h2>Sobre mí</h2>
+      <p>Soy un programador apasionado por el desarrollo web y la creación de soluciones prácticas. Manejo HTML, CSS, JavaScript, Python, Java y MySQL, además de frameworks como FastAPI, Ionic y Angular. Busco oportunidades donde seguir creciendo profesionalmente y aportar valor real con tecnología.</p>
+    </section>
+
+    <a href="#contacto" class="btn-contact">Contáctame</a>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>¡Hola! Soy Javier 👋</h1>
+        <h3>Desarrollador Web y Programador Fullstack Junior</h3>
+        <p>Apasionado por construir aplicaciones modernas, limpias y funcionales.</p>
+        <a href="#proyectos" class="btn-hero">Ver mis proyectos</a>
       </div>
-      <img src="yo.jpg" alt="Tu foto" class="avatar">
-      <h1>Javier Rodriguez</h1>
-      <p class="subtitle">Junior Fullstack Developer</p>
-      <a href="#contact" class="btn-contact">Contáctame</a>
-      <section class="about">
-        <h2>Sobre mi</h2>
-        <p>Programador con formación en desarrollo de software y bases de datos.
-             Manejo tecnologías como HTML, CSS, JavaScript, Python, Java, C++, SQL y herramientas como 
-             Git, FastAPI, Ionic y Angular. También tengo experiencia básica en soporte técnico, documentación 
-             de procesos y uso de SAP en entornos empresariales.</p>
-      </section>
-      <section id="skills">
-  <h2>My Tech Stack</h2>
-  <div class="skills-grid">
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
-      <p>HTML5</p>
-    </div>
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
-      <p>CSS3</p>
-    </div>
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-      <p>JavaScript</p>
-    </div>
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-      <p>React</p>
-    </div>
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
-      <p>Node.js</p>
-    </div>
-    <!-- Agrega más tarjetas aquí -->
-  </div> 
-</section>
-    </aside>
+    </section>
 
-    <main class="main-content">
+    <!-- Habilidades -->
+    <section id="skills">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><p>HTML5</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><p>CSS3</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><p>Python</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><p>Java</p></div>
+      </div>
+    </section>
 
-      <section id="hero">
-        <div class="hero-content">
-          <div class="window-lights">
-            <span class="light red"></span>
-            <span class="light yellow"></span>
-            <span class="light green"></span>
-          </div>
-
-          <h1>Javier Rodriguez</h1>
-          <h3>Programador Fullstack</h3>
-          <p id="typing-text">Desarrollador Fullstack Junior</p>
-          <a href="#projects" class="btn-hero">Ver mis proyectos</a>
-        </div>
-      </section>
-      <section class="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-grid">
-          <!-- Múltiples tarjetas de proyectos -->
-          <div class="proj-card">
-            <img src="aventrip.png" alt="Proyecto X">
+    <!-- Proyectos -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="chatbot.jpg" alt="Chatbot Python">
+          <div class="project-info">
+            <h3>ChatBot</h3>
+            <p>Bot conversacional desarrollado en Python y MySQL para responder consultas automatizadas.</p>
+            <a href="#">Ver en GitHub</a>
           </div>
         </div>
-      </section>
+        <div class="project-card">
+          <img src="pasteleria.png" alt="Sitio web panadería">
+          <div class="project-info">
+            <h3>Web Panadería</h3>
+            <p>Landing page con HTML, CSS y JavaScript con galería de productos y diseño responsive.</p>
+            <a href="#">Ver en GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="aventrip2.png" alt="Sitio turístico">
+          <div class="project-info">
+            <h3>App Turística</h3>
+            <p>Aplicación móvil con Angular y Firebase para mostrar sitios turísticos en mapa.</p>
+            <a href="#">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="proyecto1.png" alt="Proyecto 1" />
-                <div class="project-info">
-                    <h3>BotQuery</h3>
-                    <p>Chatbot interactivo con IA usando JavaScript y Node.js.</p>
-                    <a href="#">Ver en GitHub</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="aventrip.png" alt="Proyecto 2" />
-                <div class="project-info">
-                    <h3>Aventrip</h3>
-                    <p>App de tareas con almacenamiento local en HTML/CSS/JS.</p>
-                    <a href="#">Ver en GitHub</a>
-                </div>
-            </div>
-            <!-- más proyectos -->
-            </div>
-        </section>
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <p>📧 rodriguezjavier11g@gmail.com</p>
+      <p>📞 6848-0010</p>
+      <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
+      <p class="final-text">“Siempre aprendiendo, siempre construyendo.”</p>
+    </section>
 
-      <section class="experience">
-        <h2>Experience</h2>
-        <!-- Línea de tiempo con tarjetas -->
-      </section>
+  </main>
+</div>
 
-      <section class="testimonial">
-        <h2>Testimonial</h2>
-        <!-- Tarjeta con imagen y texto -->
-      </section>
-
-      <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <!-- Formulario y redes sociales -->
-      </section>
-    </main>
-  </div>
 </body>
 </html>
