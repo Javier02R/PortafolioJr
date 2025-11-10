@@ -198,6 +198,41 @@ body {
   color: var(--muted);
 }
 
+.github-stats {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #0d1117; /* color de fondo tipo GitHub Dark */
+  color: #fff;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.3);
+}
+
+.github-stats h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.stats-container img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.stats-container img:hover {
+  transform: scale(1.03);
+}
+
+
 /* Responsive */
 @media (max-width: 800px) {
   .container {
